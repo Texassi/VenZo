@@ -29,12 +29,12 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
 <body class="d-flex flex-column h-100">
 <?php $this->beginBody() ?>
 
-<div class="back">
+<div class="back2">
     <header class="container">
         <div class="first">
             <a class="venzo-a" href="index.html">VenZo.</a>
             <ul>
-                <li><a href="#new">Новинки <img width="15px" height="15px" src="img/Arrow-down.png" alt=""></a></li>
+                <li><a href="index.html">Новинки <img width="15px" height="15px" src="img/Arrow-down.png" alt=""></a></li>
                 <li><a href="/index.php?r=page/listproduct">Товары <img width="15px" height="15px" src="img/Arrow-down.png" alt=""></a></li>
                 <li><a href="https://youtu.be/tz_k8azJlGA?si=_ZZ1PTT6ax0Hnaca">Блог <img width="15px" height="15px" src="img/Arrow-down.png" alt=""></a></li>
             </ul>
@@ -56,148 +56,65 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
             </button>
         </div>
     </header>
-    <section class="container2">
-        <div class="about">
-            <h2>Более 1000<br> растений
-                <br>нашли свой<br> дом
-            </h2>
-            <p class="about-p">Широкий выбор различных<br> растений. Каждое растение<br> выращено индивидуальным<br> способом.
-            </p>
-            <a class="btn1" href="https://youtu.be/ci_BqyITDrM?si=V7hzOola9OYXrLTz">Подробнее</a>
-        </div>
-    </section>
-    <section class="container2">
-        <div class="flora-btn">
-            <div class="owl-prev"><img src="img/l.svg" alt=""></div>
-            <div class="owl-next"><img src="img/r.svg" alt=""></div>
-        </div>
-    </section>
-    <section>
-        <div class="owl-carousel owl-theme">
-            <div class="item">
-                <img width="296px" height="300px" src="img/1.png" alt="">
-            </div>
-            <div class="item">
-                <img width="296px" height="300px" src="img/2.png" alt="">
-            </div>
-            <div class="item">
-                <img width="296px" height="300px" src="img/3.png" alt="">
-            </div>
-            <div class="item">
-                <img width="296px" height="300px" src="img/4.png" alt="">
-            </div>
-            <div class="item">
-                <img width="296px" height="300px" src="img/5.jpg" alt="">
-            </div>
-            <div class="item">
-                <img width="296px" height="300px" src="img/6.jpg" alt="">
-            </div>
-            <div class="item">
-                <img width="296px" height="300px" src="img/7.jpg" alt="">
-            </div>
-            <div class="item">
-                <img width="296px" height="300px" src="img/8.jpg" alt="">
-            </div>
-        </div>
-    </section>
 </div>
-
-<main class="container2">
-    <section class="item">
-        <div href="item1.html" class="item-block card">
-            <div class="new-item">
-                <a name="new" class="new-text">Новинка!</a>
+<section class="container2">
+    <div class="plitem">
+        <div class="pl-item1">
+            <div class="img-fl">
+                <img width="409px" height="461px" src="img/fl6.svg" alt="">
+                <!-- <div class="new-bl">
+                    <a name="new" class="new-txt">Новинка!</a>
+                </div> -->
             </div>
-            <a class="card__image" href="http://venzo.sag/index.php?r=page/item1"><img class="item-img" width="215px" height="270px" src="img/fl1.svg" alt=""></a>
-            <div class="item-text">
-                <div class="item-text1">
-                    <p class="name1 card__title">Редукс Бланголс</p>
-                    <p class="name2">Descripción Product</p>
+            <div class="about-item">
+                <div class="m-n">
+                    <h2 class="h2-1">Пальма</h2>
+                    <h3 class="h3-1">Descripción Producto</h3>
+                </div>
+                <p>Артикул:  6</p>
+                <p>В наличии</p>
+                <p>Растение относится к однолетним или многолетним травам,
+                    полукустарникам или кустарникам.<br>
+                    Известно более 1 500 сортов бегонии, поэтому однозначно ее
+                    описать нельзя.</p>
+                <p>Растение любит рассеянный свет и температуру 18-25 градусов.
+                    Почва должна быть всегда увлажненной,
+                    но важно не переборщить, чтобы корни не начали гнить.</p>
+            </div>
+        </div>
+        <div class="pl-item2">
+            <div class="char-item">
+                <h2 class="h2-2">Характеристика</h2>
+                <table>
+                    <tr>
+                        <td>Период жизни:</td>
+                        <td>Долголетник</td>
+                    </tr>
+                    <tr>
+                        <td>Категория:</td>
+                        <td>Папоротники</td>
+                    </tr>
+                </table>
+                <h3 class="er">Почва — свежая, рыхлая, удобренная.<br>
+                    Не переносит сырых и холодных мест!</h3>
+            </div>
+            <div class="shop-cart">
+                <h2 class="h2-1">13$</h2>
+                <p>Колличество</p>
+                <div class="counter">
+                    <button class="counter__btn" data-direction="minus"><img src="img/min.svg" alt=""></button>
+                    <input type="text" value="0" class="counter__value">
+                    <button class="counter__btn" data-direction="plus"><img src="img/min.svg" alt="" style="transform: rotate(180deg);"></button>
                 </div>
                 <div class="item-text2">
-                    <p class="name1 card__price--common">13$</p>
-                    <a class="btn2 card__add" href="">В корзину</a>
-                    <a class="card__like" href=""><img width="32px" height="32px" src="img/like.png" alt=""></a>
+                    <a class="btn3" href="">В корзину</a>
+                    <a href=""><img width="48px" height="48px" src="img/like.png" alt=""></a>
                 </div>
             </div>
         </div>
-        <div class="item-block card">
-            <a class="card__image" href="http://venzo.sag/index.php?r=page/item2"><img class="item-img" style="margin-left: 30px;" src="img/fl2.svg" alt=""></a>
-            <div class="item-text">
-                <div class="item-text1">
-                    <p class="name1 card__title">Вернин Долголетний</p>
-                    <p class="name2">Descripción Product</p>
-                </div>
-                <div class="item-text2">
-                    <p class="name1 card__price--common">13$</p>
-                    <a class="btn2 card__add" href="">В корзину</a>
-                    <a class="card__like" href=""><img width="32px" height="32px" src="img/like.png" alt=""></a>
-                </div>
-            </div>
-        </div>
-        <div class="item-block card">
-            <a class="card__image" href="http://venzo.sag/index.php?r=page/item3"><img class="item-img2" src="img/fl3.svg" alt=""></a>
-            <div class="item-text">
-                <div class="item-text1">
-                    <p class="name1 card__title">Прондиан</p>
-                    <p class="name2">Descripción Product</p>
-                </div>
-                <div class="item-text2">
-                    <p class="name1 card__price--common">13$</p>
-                    <a class="btn2 card__add" href="">В корзину</a>
-                    <a class="card__like" href=""><img width="32px" height="32px" src="img/like.png" alt=""></a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="item2">
-        <div class="item-block card">
-            <a class="card__image" href="http://venzo.sag/index.php?r=page/item4"><img class="item-img" src="img/fl4.svg" alt=""></a>
-            <div class="item-text">
-                <div class="item-text1">
-                    <p class="name1 card__title">Намблел Зеленый</p>
-                    <p class="name2">Descripción Product</p>
-                </div>
-                <div class="item-text2">
-                    <p class="name1 card__price--common">13$</p>
-                    <a class="btn2 card__add" href="">В корзину</a>
-                    <a class="card__like" href=""><img width="32px" height="32px" src="img/like.png" alt=""></a>
-                </div>
-            </div>
-        </div>
-        <div class="item-block card">
-            <a class="card__image" href="http://venzo.sag/index.php?r=page/item5"><img class="item-img" src="img/fl5.svg" alt=""></a>
-            <div class="item-text">
-                <div class="item-text1">
-                    <p class="name1 card__title">Линдиас</p>
-                    <p class="name2">Descripción Product</p>
-                </div>
-                <div class="item-text2">
-                    <p class="name1 card__price--common">13$</p>
-                    <a class="btn2 card__add" href="">В корзину</a>
-                    <a class="card__like" href=""><img width="32px" height="32px" src="img/like.png" alt=""></a>
-                </div>
-            </div>
-        </div>
-        <div class="item-block card">
-            <a class="card__image" href="http://venzo.sag/index.php?r=page/item6"><img class="item-img" src="img/fl6.svg" alt=""></a>
-            <div class="item-text">
-                <div class="item-text1">
-                    <p class="name1 card__title">Пальма</p>
-                    <p class="name2">Descripción Product</p>
-                </div>
-                <div class="item-text2">
-                    <p class="name1 card__price--common">13$</p>
-                    <a class="btn2 card__add" href="">В корзину</a>
-                    <a class="card__like" href=""><img width="32px" height="32px" src="img/like.png" alt=""></a>
-                </div>
-            </div>
-        </div>
-    </section>
-</main>
-
+    </div>
+</section>
 <div class="container line">ㅤ</div>
-
 <footer class="container">
     <div class="end">
         <div>
@@ -325,6 +242,8 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
     </div>
 </div>
 
+
+<!--<header id="header">-->
 <!--    --><?php
 //    NavBar::begin([
 //        'brandLabel' => Yii::$app->name,
@@ -351,16 +270,18 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
 //    ]);
 //    NavBar::end();
 //    ?>
-
-
+<!--</header>-->
+<!---->
+<!--<main id="main" class="flex-shrink-0" role="main">-->
 <!--    <div class="container">-->
-<!--        --><?php ////if (!empty($this->params['breadcrumbs'])): ?>
-<!--           --><?php ////= Breadcrumbs::widget(['links' => $this->params['breadcrumbs']]) ?>
-<!--       --><?php ////endif ?>
+<!--        --><?php //if (!empty($this->params['breadcrumbs'])): ?>
+<!--            --><?php //= Breadcrumbs::widget(['links' => $this->params['breadcrumbs']]) ?>
+<!--        --><?php //endif ?>
 <!--        --><?php //= Alert::widget() ?>
 <!--        --><?php //= $content ?>
 <!--    </div>-->
-
+<!--</main>-->
+<!---->
 <!--<footer id="footer" class="mt-auto py-3 bg-light">-->
 <!--    <div class="container">-->
 <!--        <div class="row text-muted">-->

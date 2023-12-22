@@ -1,0 +1,200 @@
+.back2{
+    background-color: #A4BCA7;
+}
+
+.plitem{
+    display: block;
+    justify-content: space-between;
+}
+
+
+.h2-1{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;    
+}
+
+.h2-2{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal; 
+    margin: 10px 0;   
+}
+
+.img-fl{
+    display: block;
+    padding: 10px 30px 0px 30px;
+    width: 481px;
+    height: 496px;
+    flex-shrink: 0;
+    background-color: rgba(137, 137, 137, 0.13);
+}
+
+.new-bl{
+    position: absolute;
+    display: flex;
+    width: 287px;
+    height: 68px;
+    padding-left: 15px;
+    padding-top: 3px;
+    align-items: flex-start;
+    gap: 16.542px;
+    flex-shrink: 0;
+    background: #80A274;
+    box-shadow: 0px 4.57758px 3.66206px 0px rgba(0, 0, 0, 0.02), 0px 11.00056px 8.80045px 0px rgba(0, 0, 0, 0.03), 0px 20.71307px 16.57046px 0px rgba(0, 0, 0, 0.04), 0px 36.94858px 29.55886px 0px rgba(0, 0, 0, 0.04), 0px 69.10826px 55.28662px 0px rgba(0, 0, 0, 0.05), 0px 165.41939px 132.33548px 0px rgba(0, 0, 0, 0.07);
+    margin-left: 240px;
+    margin-top: -80px;
+}
+
+.new-txt{
+    color: #FFFDFD;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.pl-item1{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-top: 60px;
+}
+
+.pl-item2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    width: 496px;
+    gap: 55px;
+}
+
+.h3-1{
+    color: #C4C4C4;
+    margin: 0;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.pl-item2 p{
+    color: #000;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.m-n{
+    margin: 38px 0;
+}
+
+.char-item{
+    display: block;
+    margin-top: 0px;
+    background-color: rgba(137, 137, 137, 0.13);
+    padding: 30px;
+    width: 691px;
+    height: 263px;
+    flex-shrink: 0;
+}
+
+.about-item{
+    color: #000;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+table td{
+    color: #000;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding: 2px 15px 2px 0px;
+}
+
+.er{
+    color: #C4C4C4;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 10px 0;
+}
+
+.counter{
+    display: flex;
+    width: 110px;
+    gap: 5px;
+    margin: 5px 0px 15px 0px;
+}
+
+.counter__btn {
+    height: 42px;
+    background-color: #fff;
+    border: none;
+}
+
+.counter__value{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-left: 10px;
+}
+
+.btn3{
+    display: flex;
+    width: 181px;
+    height: 48px;
+    padding: 10px 20px;
+    align-items: flex-start;
+    gap: 16.542px;
+    flex-shrink: 0;
+    border-radius: 16.542px 16.542px 16.5px 16.5px;
+    background: #4F5B40;
+    box-shadow: 0px 4.578px 3.662px 0px rgba(0, 0, 0, 0.02), 0px 11.001px 8.8px 0px rgba(0, 0, 0, 0.03), 0px 20.713px 16.57px 0px rgba(0, 0, 0, 0.04), 0px 36.949px 29.559px 0px rgba(0, 0, 0, 0.04), 0px 69.108px 55.287px 0px rgba(0, 0, 0, 0.05), 0px 165.419px 132.335px 0px rgba(0, 0, 0, 0.07);
+    color: #FFFDFD;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.shop-cart{
+    width: 304px;
+    height: 263px;
+    flex-shrink: 0;
+    background-color: rgba(137, 137, 137, 0.13);
+    padding: 20px 30px;
+}
+
+.shop-cart p{
+    color: #000;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 5px 0px 15px 0px;
+}

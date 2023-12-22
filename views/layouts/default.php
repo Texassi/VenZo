@@ -29,7 +29,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
 <body class="d-flex flex-column h-100">
 <?php $this->beginBody() ?>
 
-<div class="back">
+<div class="back2">
     <header class="container">
         <div class="first">
             <a class="venzo-a" href="index.html">VenZo.</a>
@@ -56,148 +56,144 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
             </button>
         </div>
     </header>
-    <section class="container2">
-        <div class="about">
-            <h2>Более 1000<br> растений
-                <br>нашли свой<br> дом
-            </h2>
-            <p class="about-p">Широкий выбор различных<br> растений. Каждое растение<br> выращено индивидуальным<br> способом.
-            </p>
-            <a class="btn1" href="https://youtu.be/ci_BqyITDrM?si=V7hzOola9OYXrLTz">Подробнее</a>
-        </div>
-    </section>
-    <section class="container2">
-        <div class="flora-btn">
-            <div class="owl-prev"><img src="img/l.svg" alt=""></div>
-            <div class="owl-next"><img src="img/r.svg" alt=""></div>
-        </div>
-    </section>
-    <section>
-        <div class="owl-carousel owl-theme">
-            <div class="item">
-                <img width="296px" height="300px" src="img/1.png" alt="">
-            </div>
-            <div class="item">
-                <img width="296px" height="300px" src="img/2.png" alt="">
-            </div>
-            <div class="item">
-                <img width="296px" height="300px" src="img/3.png" alt="">
-            </div>
-            <div class="item">
-                <img width="296px" height="300px" src="img/4.png" alt="">
-            </div>
-            <div class="item">
-                <img width="296px" height="300px" src="img/5.jpg" alt="">
-            </div>
-            <div class="item">
-                <img width="296px" height="300px" src="img/6.jpg" alt="">
-            </div>
-            <div class="item">
-                <img width="296px" height="300px" src="img/7.jpg" alt="">
-            </div>
-            <div class="item">
-                <img width="296px" height="300px" src="img/8.jpg" alt="">
-            </div>
-        </div>
-    </section>
 </div>
-
-<main class="container2">
-    <section class="item">
-        <div href="item1.html" class="item-block card">
-            <div class="new-item">
+<section class="container2 cart">
+    <div class="filt">
+        <h3>Фильтры</h3>
+        <p>Цена</p>
+        <form class="form3">
+            <input class="input3" type="text" placeholder="От"><p>/</p><input class="input3" type="text" placeholder="До">
+        </form>
+        <br>
+        <p>Период жизни</p>
+        <ul>
+            <label class="c_box cb">
+                <input type="checkbox"  value=""><span></span>
+                Долголетник
+            </label>
+            <label class="c_box cb">
+                <input type="checkbox"  value=""><span></span>
+                Сезонное
+            </label>
+            <label class="c_box cb">
+                <input type="checkbox" value=""><span></span>
+                Однолетние
+            </label>
+        </ul>
+        <p>Категория</p>
+        <ul>
+            <label class="c_box cb">
+                <input type="checkbox" id="cb" value=""><span></span>
+                Цветущие
+            </label>
+            <label class="c_box cb">
+                <input type="checkbox" id="cb" value=""><span></span>
+                Лиственные
+            </label>
+            <label class="c_box cb">
+                <input type="checkbox" id="cb" value=""><span></span>
+                Папоротники
+            </label>
+        </ul>
+    </div>
+    <div>
+        <section class="item3">
+            <div class="new-item2">
                 <a name="new" class="new-text">Новинка!</a>
             </div>
-            <a class="card__image" href="http://venzo.sag/index.php?r=page/item1"><img class="item-img" width="215px" height="270px" src="img/fl1.svg" alt=""></a>
-            <div class="item-text">
-                <div class="item-text1">
-                    <p class="name1 card__title">Редукс Бланголс</p>
-                    <p class="name2">Descripción Product</p>
-                </div>
-                <div class="item-text2">
-                    <p class="name1 card__price--common">13$</p>
-                    <a class="btn2 card__add" href="">В корзину</a>
-                    <a class="card__like" href=""><img width="32px" height="32px" src="img/like.png" alt=""></a>
-                </div>
-            </div>
-        </div>
-        <div class="item-block card">
-            <a class="card__image" href="http://venzo.sag/index.php?r=page/item2"><img class="item-img" style="margin-left: 30px;" src="img/fl2.svg" alt=""></a>
-            <div class="item-text">
-                <div class="item-text1">
-                    <p class="name1 card__title">Вернин Долголетний</p>
-                    <p class="name2">Descripción Product</p>
-                </div>
-                <div class="item-text2">
-                    <p class="name1 card__price--common">13$</p>
-                    <a class="btn2 card__add" href="">В корзину</a>
-                    <a class="card__like" href=""><img width="32px" height="32px" src="img/like.png" alt=""></a>
+            <div class="item-block">
+                <a href="http://venzo.sag/index.php?r=page/item1"><img class="item-img" width="215px" height="270px" src="img/fl1.svg" alt=""></a>
+                <div class="item-text">
+                    <div class="item-text1">
+                        <p class="name1">Редукс Бланголс</p>
+                        <p class="name2">Descripción Product</p>
+                    </div>
+                    <div class="item-text2">
+                        <p class="name1">13$</p>
+                        <a class="btn2" href="">В корзину</a>
+                        <a href=""><img width="32px" height="32px" src="img/like.png" alt=""></a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="item-block card">
-            <a class="card__image" href="http://venzo.sag/index.php?r=page/item3"><img class="item-img2" src="img/fl3.svg" alt=""></a>
-            <div class="item-text">
-                <div class="item-text1">
-                    <p class="name1 card__title">Прондиан</p>
-                    <p class="name2">Descripción Product</p>
-                </div>
-                <div class="item-text2">
-                    <p class="name1 card__price--common">13$</p>
-                    <a class="btn2 card__add" href="">В корзину</a>
-                    <a class="card__like" href=""><img width="32px" height="32px" src="img/like.png" alt=""></a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="item2">
-        <div class="item-block card">
-            <a class="card__image" href="http://venzo.sag/index.php?r=page/item4"><img class="item-img" src="img/fl4.svg" alt=""></a>
-            <div class="item-text">
-                <div class="item-text1">
-                    <p class="name1 card__title">Намблел Зеленый</p>
-                    <p class="name2">Descripción Product</p>
-                </div>
-                <div class="item-text2">
-                    <p class="name1 card__price--common">13$</p>
-                    <a class="btn2 card__add" href="">В корзину</a>
-                    <a class="card__like" href=""><img width="32px" height="32px" src="img/like.png" alt=""></a>
+            <div class="item-block">
+                <a href="http://venzo.sag/index.php?r=page/item2"><img class="item-img" style="margin-left: 30px;" src="img/fl2.svg" alt=""></a>
+                <div class="item-text">
+                    <div class="item-text1">
+                        <p class="name1">Вернин Долголетний</p>
+                        <p class="name2">Descripción Product</p>
+                    </div>
+                    <div class="item-text2">
+                        <p class="name1">13$</p>
+                        <a class="btn2" href="">В корзину</a>
+                        <a href=""><img width="32px" height="32px" src="img/like.png" alt=""></a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="item-block card">
-            <a class="card__image" href="http://venzo.sag/index.php?r=page/item5"><img class="item-img" src="img/fl5.svg" alt=""></a>
-            <div class="item-text">
-                <div class="item-text1">
-                    <p class="name1 card__title">Линдиас</p>
-                    <p class="name2">Descripción Product</p>
-                </div>
-                <div class="item-text2">
-                    <p class="name1 card__price--common">13$</p>
-                    <a class="btn2 card__add" href="">В корзину</a>
-                    <a class="card__like" href=""><img width="32px" height="32px" src="img/like.png" alt=""></a>
-                </div>
-            </div>
-        </div>
-        <div class="item-block card">
-            <a class="card__image" href="http://venzo.sag/index.php?r=page/item6"><img class="item-img" src="img/fl6.svg" alt=""></a>
-            <div class="item-text">
-                <div class="item-text1">
-                    <p class="name1 card__title">Пальма</p>
-                    <p class="name2">Descripción Product</p>
-                </div>
-                <div class="item-text2">
-                    <p class="name1 card__price--common">13$</p>
-                    <a class="btn2 card__add" href="">В корзину</a>
-                    <a class="card__like" href=""><img width="32px" height="32px" src="img/like.png" alt=""></a>
+        </section>
+        <section class="item3">
+            <div class="item-block">
+                <a href="http://venzo.sag/index.php?r=page/item3"><img class="item-img2" src="img/fl3.svg" alt=""></a>
+                <div class="item-text">
+                    <div class="item-text1">
+                        <p class="name1">Прондиан</p>
+                        <p class="name2">Descripción Product</p>
+                    </div>
+                    <div class="item-text2">
+                        <p class="name1">13$</p>
+                        <a class="btn2" href="">В корзину</a>
+                        <a href=""><img width="32px" height="32px" src="img/like.png" alt=""></a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-</main>
+            <div class="item-block">
+                <a href="http://venzo.sag/index.php?r=page/item4"><img class="item-img" src="img/fl4.svg" alt=""></a>
+                <div class="item-text">
+                    <div class="item-text1">
+                        <p class="name1">Намблел Зеленый</p>
+                        <p class="name2">Descripción Product</p>
+                    </div>
+                    <div class="item-text2">
+                        <p class="name1">13$</p>
+                        <a class="btn2" href="">В корзину</a>
+                        <a href=""><img width="32px" height="32px" src="img/like.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="item3">
+            <div class="item-block">
+                <a href="http://venzo.sag/index.php?r=page/item5"><img class="item-img" src="img/fl5.svg" alt=""></a>
+                <div class="item-text">
+                    <div class="item-text1">
+                        <p class="name1">Линдиас</p>
+                        <p class="name2">Descripción Product</p>
+                    </div>
+                    <div class="item-text2">
+                        <p class="name1">13$</p>
+                        <a class="btn2" href="">В корзину</a>
+                        <a href=""><img width="32px" height="32px" src="img/like.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item-block">
+                <a href="http://venzo.sag/index.php?r=page/item6"><img class="item-img" src="img/fl6.svg" alt=""></a>
+                <div class="item-text">
+                    <div class="item-text1">
+                        <p class="name1">Пальма</p>
+                        <p class="name2">Descripción Product</p>
+                    </div>
+                    <div class="item-text2">
+                        <p class="name1">13$</p>
+                        <a class="btn2" href="">В корзину</a>
+                        <a href=""><img width="32px" height="32px" src="img/like.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</section>
 
 <div class="container line">ㅤ</div>
-
 <footer class="container">
     <div class="end">
         <div>
@@ -325,6 +321,8 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
     </div>
 </div>
 
+
+<!--<header id="header">-->
 <!--    --><?php
 //    NavBar::begin([
 //        'brandLabel' => Yii::$app->name,
@@ -351,16 +349,18 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
 //    ]);
 //    NavBar::end();
 //    ?>
-
-
+<!--</header>-->
+<!---->
+<!--<main id="main" class="flex-shrink-0" role="main">-->
 <!--    <div class="container">-->
-<!--        --><?php ////if (!empty($this->params['breadcrumbs'])): ?>
-<!--           --><?php ////= Breadcrumbs::widget(['links' => $this->params['breadcrumbs']]) ?>
-<!--       --><?php ////endif ?>
+<!--        --><?php //if (!empty($this->params['breadcrumbs'])): ?>
+<!--            --><?php //= Breadcrumbs::widget(['links' => $this->params['breadcrumbs']]) ?>
+<!--        --><?php //endif ?>
 <!--        --><?php //= Alert::widget() ?>
 <!--        --><?php //= $content ?>
 <!--    </div>-->
-
+<!--</main>-->
+<!---->
 <!--<footer id="footer" class="mt-auto py-3 bg-light">-->
 <!--    <div class="container">-->
 <!--        <div class="row text-muted">-->
